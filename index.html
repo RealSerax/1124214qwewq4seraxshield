@@ -10,28 +10,28 @@
     <button id="privacypolicy" class="buttonstyle"> Privacy policy </button>
     <button id="invite" class="buttonstyle"> Invite </button>
     <br>
-    <button id="support" class="supportinvite"> <img src="invite.png"> </button>
+    <img id="support" class="supportinvite" src="invite.png">
 
 
     <script>
         const home = document.getElementById("home");
 
         home.addEventListener("click", function(e) {
-            window.open("https://realserax.github.io/SeraxShield/");
+            window.location.replace("https://realserax.github.io/SeraxShield/");
 
         });
 
         const tos = document.getElementById("tos");
 
         tos.addEventListener("click", function(e) {
-          window.open("https://realserax.github.io/SeraxShield/tos");
+          window.location.replace("https://realserax.github.io/SeraxShield/tos");
         });
 
         const privacypolicy = document.getElementById("privacypolicy");
 
         privacypolicy.addEventListener("click", function(e) {
 
-          window.open("https://realserax.github.io/SeraxShield/privacypolicy");
+          window.location.replace("https://realserax.github.io/SeraxShield/privacypolicy");
 
         });
 
@@ -39,14 +39,16 @@
         const invite = document.getElementById("invite");
 
         invite.addEventListener("click", function(e) {
-          window.open("https://discord.com/api/oauth2/authorize?client_id=896782800588521483&permissions=8&scope=bot");
+          window.location.replace("https://discord.com/api/oauth2/authorize?client_id=896782800588521483&permissions=8&scope=bot");
         });
 
         const support = document.getElementById("support");
 
         support.addEventListener("click", function(e) {
-          window.open("https://discord.com/invite/3gEMXtYHzc");
+          window.location.replace("https://discord.com/invite/3gEMXtYHzc");
         });
+
+
 
     </script>
 
@@ -58,7 +60,11 @@
 
     <hr class="line">
 
+
     <div class="container"> 
+
+      <span> 
+
       <div class="boxdesign"> 
         <img src="seraxshieldlogo.png"> 
         <p class="titlefont"> FREE PLAN </p>
@@ -67,10 +73,6 @@
         <p class="normalfont"> Verification types </p>
         <p class="normalfont"> Whitelist System </p>
       </div>
-      
-    </div>
-
-    <div class="secondcontainer">
 
       <div class="boxdesign"> 
         <img src="seraxshieldlogo.png"> 
@@ -81,22 +83,25 @@
         <p class="normalfont"> More. . . </p>
       </div>
 
-    </div>
-
-    <div class="thirdcontainer">
       <div class="secondboxdesign">
 
-      <img src="premium.png">
-      <p class="premiumfont"> PREMIUM PLAN </p>
-      <p class="secondpremiumfont"> Free features </p>
-      <p class="secondpremiumfont"> Own, faster database </p>
-      <p class="secondpremiumfont"> Reaper mode </p>
-      <p class="secondpremiumfont"> Early access, more. . . </p>
-
+        <img src="premium.png">
+        <p class="premiumfont"> PREMIUM PLAN </p>
+        <p class="secondpremiumfont"> Free features </p>
+        <p class="secondpremiumfont"> Own, faster database </p>
+        <p class="secondpremiumfont"> Reaper mode </p>
+        <p class="secondpremiumfont"> Early access, more. . . </p>
+  
       </div>
 
-
+     </span>
+      
     </div>
+
+
+
+
+
 
   </body>
 
