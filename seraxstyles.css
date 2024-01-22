@@ -6,64 +6,61 @@ body {
 .buttonstyle {
   border-style: solid;
   border-width: 2px;
-  border-radius: 6px;
-  border-color: rgb(87, 195, 245);
+  border-radius: 20px;
+  border-color: black;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 1px;
   padding-bottom: 1px;
-  background-color: transparent;
+  background-color: rgb(83, 181, 226);
   width: 120px;
   height: 55px;
-  color: rgb(87, 195, 245);
+  color: white;
   transition: 1s;
   margin-top: 1px;
   white-space: nowrap;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 1);
+  margin-left: 20px;
 }
 
 .buttonstyle:hover {
   background-color: rgb(87, 195, 245);
   cursor: pointer;
-  color: white;
+  opacity: 1;
+  scale: 1.2;
 }
 
 .container {
+
   text-align: center;
   position: absolute;
   bottom: 0;
-  float: left;
+  display: table;
+  clear: both;
+
 }
 
-
-.secondcontainer {
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  right: 1450px;
-}
-
-.thirdcontainer {
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  right: 1190px;
-}
 
 .boxdesign {
   padding-top: 20px;
   border-style: solid;
   border-width: 2px;
-  border-radius: 2px;
-  background-color: transparent;
-  border-color:rgb(87, 195, 245);
-  color: rgb(87, 195, 245);
-  width: 200px;
+  border-radius: 20px;
+  background-image: url("Ef.png");
+  background-size: cover;
+  border-color: rgb(83, 181, 226);
+  color: white;
+  width: 250px;
   height: 300px;
   transition: 1s;
+  box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 1);
+  margin-left: 50px;
+  margin-bottom: 30px;
+  float: left;
 }
 
 .boxdesign:hover {
-  width: 250px;
+  scale: 1.2;
   cursor: pointer;
 }
 
@@ -72,17 +69,23 @@ body {
   padding-top: 20px;
   border-style: solid;
   border-width: 2px;
-  border-radius: 2px;
+  border-radius: 20px;
   background-color: transparent;
   border-color: #fe2c54;
-  color: #fe2c54;
-  width: 200px;
+  color: white;
+  width: 250px;
   height: 300px;
   transition: 1s;
+  background-image: url("Ef.png");
+  background-size: cover;
+  box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 1);
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 30px;
 }
 
 .secondboxdesign:hover {
-  width: 250px;
+  scale: 1.2;
   cursor: pointer;
 }
 
@@ -95,20 +98,20 @@ body {
 }
 
 .normalfont {
-  color: rgb(87, 195, 245);
+  color: white;
   font-size: 15px;
   font-family: Arial;
 }
 
 .premiumfont {
-  color:#fe2c54;
+  color: #fe2c54;
   font-size: 20px;
   font-style: italic;
   font-family: Arial;
 }
 
 .secondpremiumfont {
-  color:#fe2c54;
+  color:white;
   font-size: 15px;
   font-family: Arial;
 }
@@ -147,6 +150,7 @@ body {
   background-color: transparent;
   border-color: transparent;
   transition: 1s;
+  margin-left: 850px;
 }
 
 .supportinvite:hover {
@@ -154,10 +158,34 @@ body {
   scale: 1.2;
 }
 
-.imagetext {
-  background-image: url("https://cdn.discordapp.com/attachments/1148314995118047363/1150516665948307677/2061120.png?ex=65a43924&is=6591c424&hm=32eb49d1d32800a91285c6efabfa8b0513ba425779aca61dcbec2c76a2ecd338&");
-  background-clip: text;
+
+.serverselect {
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: rgb(87, 195, 245);
+  text-align: center;
+  border-width: 1px;
+  width: 130px;
+  height: 130px;
+  color: rgb(87, 195, 245);
+  margin-left: 50px;
+  transition: 1.5s;
+  box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.8)
+}
+
+.serverselect:hover {
+  background-color: rgb(87, 195, 245);
+  color: white;
+  cursor: pointer;
+  scale: 1.2;
+}
+
+.dashboardfont {
   font-size: 50px;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  color: rgb(87, 195, 245);
+  font-weight: bold;
+  margin-left: 180px;
+  font-family: Arial;
+  font-style: italic;
 }
